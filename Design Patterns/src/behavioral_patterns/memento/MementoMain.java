@@ -1,11 +1,11 @@
 package behavioral_patterns.memento;
 
-import behavioral_patterns.memento.solutions.Demo;
+import behavioral_patterns.memento.solutions.MementoDemo;
 
 public class MementoMain {
     public static void main(String[] args) {
         // Document Problem
-        Demo.show();
+        MementoDemo.show();
     }
     public static void editorShow() {
         var editor = new Editor();

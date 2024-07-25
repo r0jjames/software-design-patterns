@@ -14,7 +14,7 @@ class and these attributes should also be undoable.
 Implement the undo feature using the memento pattern.
  */
 
-public class Demo {
+public class MementoDemo {
   public static void show() {
     var document = new Document();
     var history = new History();
