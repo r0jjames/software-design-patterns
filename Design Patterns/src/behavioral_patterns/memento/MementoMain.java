@@ -4,8 +4,9 @@ import behavioral_patterns.memento.solutions.MementoDemo;
 
 public class MementoMain {
     public static void main(String[] args) {
-        // Document Problem
+        // Exercise 1: Document Problem
         MementoDemo.show();
+
     }
     public static void editorShow() {
         var editor = new Editor();
