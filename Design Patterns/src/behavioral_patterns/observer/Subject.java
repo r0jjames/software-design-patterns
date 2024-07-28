@@ -2,7 +2,7 @@ package behavioral_patterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Subject
 public class Subject {
     List<Observer> observers = new ArrayList<>();
     protected void addObserver(Observer observer) {

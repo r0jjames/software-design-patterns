@@ -1,5 +1,6 @@
 package behavioral_patterns.observer;
 
+// Concrete Subject
 public class DataSource extends Subject{
     private String text;
 
