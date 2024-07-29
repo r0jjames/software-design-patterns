@@ -10,7 +10,6 @@ corresponding views.  Use the observer pattern to solve this problem.
 
 
 
-package com.codewithmosh.observer;
 
 public class Stock {
     private String symbol;
@@ -40,7 +39,7 @@ public class Stock {
 
 
 
-package com.codewithmosh.observer;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -58,7 +57,7 @@ public class StockListView {
     }
 }
 
-package com.codewithmosh.observer;
+
 
 import java.util.ArrayList;
 import java.util.List;
