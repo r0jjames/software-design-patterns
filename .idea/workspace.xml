@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d634469d-7405-4fc1-a2e2-3ae18d383a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/FlyweightMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointIcon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointIconFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/flyweight.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/CellContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/CellContextFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/SpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/AdvanceRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/BridgeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/SamsungTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/SonyTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/bridge.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Patterns/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,7 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.AdapterMain.executor": "Run",
+    "Application.BridgeMain.executor": "Run",
     "Application.CORMain.executor": "Run",
     "Application.CommainMain.executor": "Run",
     "Application.CommandMain.executor": "Run",
@@ -71,6 +67,12 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/structural_patterns/flyweight/solution",
     "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,13 +96,18 @@
       <recent name="behavioral_patterns.memento.solutions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightMain">
-    <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.adapter.AdapterMain" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="FlyweightMain" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BridgeMain">
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.BridgeMain" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.adapter.*" />
+          <option name="PATTERN" value="structural_patterns.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.FlyweightMain" />
         <item itemvalue="Application.FacadeMain" />
         <item itemvalue="Application.DecoratorMain" />
-        <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.CompositeMain" />
       </list>
     </recent_temporary>
