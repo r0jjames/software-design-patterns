@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d634469d-7405-4fc1-a2e2-3ae18d383a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/AuthToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Facade.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/FacadeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/NotificationServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution/OAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution/Tweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution/TwitterAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution/TwitterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution/problem.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/software-design-patterns.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/FlyweightMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointIcon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointIconFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/PointType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/flyweight.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/CellContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/CellContextFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/SpreadSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution/problem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +54,7 @@
     "Application.CompositeMain.executor": "Run",
     "Application.DecoratorMain.executor": "Run",
     "Application.FacadeMain.executor": "Run",
+    "Application.FlyweightMain.executor": "Run",
     "Application.IteratorMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MediatorMain.executor": "Run",
@@ -71,17 +69,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/structural_patterns/facade/solution",
+    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/structural_patterns/flyweight/solution",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/decorator/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/adapter/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/composite/solution" />
-      <recent name="$PROJECT_DIR$/Design Patterns/src/behavioral_patterns/visitor/solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Design Patterns/src/behavioral_patterns/template/solution" />
@@ -96,7 +94,7 @@
       <recent name="behavioral_patterns.memento.solutions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FacadeMain">
+  <component name="RunManager" selected="Application.FlyweightMain">
     <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural_patterns.adapter.AdapterMain" />
       <module name="software-design-patterns" />
@@ -149,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral_patterns.visitor.VisitorMain" />
+    <configuration name="FlyweightMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_patterns.flyweight.FlyweightMain" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral_patterns.visitor.*" />
+          <option name="PATTERN" value="structural_patterns.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlyweightMain" />
         <item itemvalue="Application.FacadeMain" />
         <item itemvalue="Application.DecoratorMain" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.CompositeMain" />
-        <item itemvalue="Application.VisitorMain" />
       </list>
     </recent_temporary>
   </component>
