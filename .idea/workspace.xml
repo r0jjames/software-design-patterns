@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d634469d-7405-4fc1-a2e2-3ae18d383a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/AdvanceRemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/BridgeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/SamsungTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/SonyTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/bridge/bridge.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/ContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/PrototypeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/prototype.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Clip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/ContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Timeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/problem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/adapter/adapter.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/adapter/adapter.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/composite/composite.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/composite/composite.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Facade.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Facade.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/adapter/adapter.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/adapter/adapter.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/composite/composite.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/composite/composite.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/facade/Facade.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/facade/Facade.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;r0jjames&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/r0jjames/software-design-patterns.git&quot;,
+    &quot;accountId&quot;: &quot;c5202e75-af9d-4bba-82a9-fc6ccc214323&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -56,6 +79,8 @@
     "Application.MediatorMain.executor": "Run",
     "Application.MementoMain.executor": "Run",
     "Application.ObserverMain.executor": "Run",
+    "Application.PrototypeMain.executor": "Run",
+    "Application.ProxyMain.executor": "Run",
     "Application.StateDemo.executor": "Run",
     "Application.StateMain.executor": "Run",
     "Application.StrategyMain.executor": "Run",
@@ -65,23 +90,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/structural_patterns/flyweight/solution",
+    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/creational_patterns/prototype/solution",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
       "directory",
       "module"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution" />
+      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/proxy/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/decorator/solution" />
-      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/adapter/solution" />
-      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/composite/solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Design Patterns/src/behavioral_patterns/template/solution" />
@@ -101,39 +132,13 @@
       <command value="FlyweightMain" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BridgeMain">
+  <component name="RunManager" selected="Application.PrototypeMain">
     <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.BridgeMain" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="structural_patterns.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompositeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.composite.CompositeMain" />
-      <module name="software-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural_patterns.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecoratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.decorator.DecoratorMain" />
-      <module name="software-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural_patterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,13 +172,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrototypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational_patterns.prototype.PrototypeMain" />
+      <module name="software-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational_patterns.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_patterns.proxy.ProxyMain" />
+      <module name="software-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural_patterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeMain" />
+        <item itemvalue="Application.ProxyMain" />
         <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.FlyweightMain" />
         <item itemvalue="Application.FacadeMain" />
-        <item itemvalue="Application.DecoratorMain" />
-        <item itemvalue="Application.CompositeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +218,17 @@
       <updated>1717071893109</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
