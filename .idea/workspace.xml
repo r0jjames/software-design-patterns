@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d634469d-7405-4fc1-a2e2-3ae18d383a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/ConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/solution/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/FactoryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/matcha/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/matcha/MatchaViewEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/matcha/ViewEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/sharp/SharpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/sharp/SharpViewEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/ArabianCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/ArabianScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/GregorianCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/problem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/SingletonMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +69,7 @@
     "Application.CompositeMain.executor": "Run",
     "Application.DecoratorMain.executor": "Run",
     "Application.FacadeMain.executor": "Run",
+    "Application.FactoryMain.executor": "Run",
     "Application.FlyweightMain.executor": "Run",
     "Application.IteratorMain.executor": "Run",
     "Application.Main.executor": "Run",
@@ -75,7 +88,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/creational_patterns/prototype/solution",
+    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/creational_patterns/factory/solution",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -93,11 +106,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution" />
+      <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/proxy/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution" />
-      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/solution" />
-      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/decorator/solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Design Patterns/src/behavioral_patterns/template/solution" />
@@ -117,7 +130,7 @@
       <command value="FlyweightMain" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonMain">
+  <component name="RunManager" selected="Application.FactoryMain">
     <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.BridgeMain" />
       <module name="software-design-patterns" />
@@ -131,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.flyweight.FlyweightMain" />
+    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational_patterns.factory.FactoryMain" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.flyweight.*" />
+          <option name="PATTERN" value="creational_patterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryMain" />
         <item itemvalue="Application.SingletonMain" />
         <item itemvalue="Application.PrototypeMain" />
         <item itemvalue="Application.ProxyMain" />
         <item itemvalue="Application.BridgeMain" />
-        <item itemvalue="Application.FlyweightMain" />
       </list>
     </recent_temporary>
   </component>
