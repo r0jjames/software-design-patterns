@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d634469d-7405-4fc1-a2e2-3ae18d383a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/ContextMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/PrototypeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/prototype.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Clip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/ContextMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/Timeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/solution/problem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/adapter/adapter.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/adapter/adapter.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/composite/composite.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/composite/composite.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Facade.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/structural_patterns/facade/Facade.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/adapter/adapter.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/adapter/adapter.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/composite/composite.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/composite/composite.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/facade/Facade.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/software-design-patterns/structural_patterns/facade/Facade.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/SingletonMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +65,7 @@
     "Application.ObserverMain.executor": "Run",
     "Application.PrototypeMain.executor": "Run",
     "Application.ProxyMain.executor": "Run",
+    "Application.SingletonMain.executor": "Run",
     "Application.StateDemo.executor": "Run",
     "Application.StateMain.executor": "Run",
     "Application.StrategyMain.executor": "Run",
@@ -132,26 +117,13 @@
       <command value="FlyweightMain" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrototypeMain">
+  <component name="RunManager" selected="Application.SingletonMain">
     <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.BridgeMain" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="structural_patterns.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FacadeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.facade.FacadeMain" />
-      <module name="software-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural_patterns.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,13 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational_patterns.singleton.SingletonMain" />
+      <module name="software-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational_patterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonMain" />
         <item itemvalue="Application.PrototypeMain" />
         <item itemvalue="Application.ProxyMain" />
         <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.FlyweightMain" />
-        <item itemvalue="Application.FacadeMain" />
       </list>
     </recent_temporary>
   </component>
