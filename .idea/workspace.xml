@@ -5,21 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d634469d-7405-4fc1-a2e2-3ae18d383a5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/FactoryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/ProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/matcha/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/matcha/MatchaViewEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/matcha/ViewEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/sharp/SharpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/sharp/SharpViewEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/ArabianCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/ArabianScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/GregorianCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/AbstractFactoryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/Textbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/Widget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/WidgetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/ant/AntButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/ant/AntTextbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/ant/AntWidgetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/app/ContactForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/app/Theme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/material/MaterialButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/material/MaterialTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/material/MaterialWidgetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/BuildMuscleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/BuildMuscleMealPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/BuildMuscleWorkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/Goal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/GoalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/MealPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/WeighLossMealPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/WeightLossFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/WeightLossWorkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/WorkoutPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution/problem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -61,6 +73,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.AbstractFactoryMain.executor": "Run",
     "Application.AdapterMain.executor": "Run",
     "Application.BridgeMain.executor": "Run",
     "Application.CORMain.executor": "Run",
@@ -88,7 +101,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/creational_patterns/factory/solution",
+    "last_opened_file_path": "/Users/rojcarranza/GitHub/software-design-patterns/Design Patterns/src/creational_patterns/abstractFactory/solution",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -106,11 +119,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/abstractFactory/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/factory/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/singleton/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/creational_patterns/prototype/solution" />
       <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/proxy/solution" />
-      <recent name="$PROJECT_DIR$/Design Patterns/src/structural_patterns/flyweight/solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Design Patterns/src/behavioral_patterns/template/solution" />
@@ -130,13 +143,13 @@
       <command value="FlyweightMain" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryMain">
-    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.BridgeMain" />
+  <component name="RunManager" selected="Application.AbstractFactoryMain">
+    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational_patterns.abstractFactory.AbstractFactoryMain" />
       <module name="software-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.bridge.*" />
+          <option name="PATTERN" value="creational_patterns.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryMain" />
         <item itemvalue="Application.FactoryMain" />
         <item itemvalue="Application.SingletonMain" />
         <item itemvalue="Application.PrototypeMain" />
         <item itemvalue="Application.ProxyMain" />
-        <item itemvalue="Application.BridgeMain" />
       </list>
     </recent_temporary>
   </component>
