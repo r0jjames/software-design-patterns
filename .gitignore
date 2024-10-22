@@ -1,6 +1,5 @@
 # Compiled class file
 *.class
-.idea/**
 # Log file
 *.log
 
@@ -23,7 +22,9 @@
 target/
 
 # IDE specific
-.idea/
+.idea/*
+!.idea/misc.xml
+!.idea/modules.xml
 *.iml
 *.ipr
 *.iws
