@@ -1,4 +1,4 @@
-package behavioral_patterns.stategy;
+package behavioral_patterns.stategy.example_1;
 
 public class PngCompressor implements Compressor{
     @Override

@@ -1,4 +1,4 @@
-package behavioral_patterns.stategy.solution;
+package behavioral_patterns.stategy.example_2;
 
 /*
 In the Exercises project, look at the strategy/ChatClient class.

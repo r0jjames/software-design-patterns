@@ -1,4 +1,4 @@
-package behavioral_patterns.stategy.solution;
+package behavioral_patterns.stategy.example_2;
 
 public class DESEncryption implements Encryption{
     @Override
