@@ -2,9 +2,17 @@
 
 ## Behavioral Patterns 
 #### Interaction or communication between objects
+
 ### Strategy:
-#### Defines a family of Algorithm, encapsulates each one, and make them interchangeable
-#### Allows passing different algorithms (behaviours) to an object.
+Defines a family of Algorithm, encapsulates each one, and make them interchangeable
+Allows passing different algorithms (behaviours) to an object.
+
+### Observer:
+Defines one to many dependency between objects so when one object changes state, all of its dependents notified and updated automatically. 
+Allows an object notify other objects when its state changes.
+
+### Decorator:
+#### Attaches additional responsibilities to an object dynamically. Decorators provide the alternative to subclassing for extending functionality.
 
 
 ### Memento: 
@@ -18,8 +26,7 @@ be implemented in subclasses.
 ### Command:
 Allows decouple a sender from a receiver. The sender will talk to
 the receive through a command. Commands can be undone and persisted.
-### Observer:
-Allows an object notify other objects when its state changes.
+
 ### Mediator:
 Allows an object to encapsulate the communication between other
 objects.

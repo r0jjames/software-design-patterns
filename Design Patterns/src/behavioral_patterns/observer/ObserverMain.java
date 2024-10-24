@@ -1,9 +1,8 @@
 package behavioral_patterns.observer;
 
-import behavioral_patterns.observer.pull.Graph;
-import behavioral_patterns.observer.solution.StatusBar;
-import behavioral_patterns.observer.solution.Stock;
-import behavioral_patterns.observer.solution.StockListView;
+import behavioral_patterns.observer.example_2.StatusBar;
+import behavioral_patterns.observer.example_2.Stock;
+import behavioral_patterns.observer.example_2.StockListView;
 
 public class ObserverMain {
     public static void main(String[] args) {

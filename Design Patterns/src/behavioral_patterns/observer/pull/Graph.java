@@ -1,7 +1,7 @@
 package behavioral_patterns.observer.pull;
 
-import behavioral_patterns.observer.DataSource;
-import behavioral_patterns.observer.Observer;
+import behavioral_patterns.observer.example_1.DataSource;
+import behavioral_patterns.observer.example_1.Observer;
 
 public class Graph implements Observer {
     private DataSource dataSource;
