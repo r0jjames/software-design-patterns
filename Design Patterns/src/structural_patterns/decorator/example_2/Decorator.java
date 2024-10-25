@@ -1,4 +1,4 @@
-package structural_patterns.decorator.solution;
+package structural_patterns.decorator.example_2;
 
 public interface Decorator {
     String render();

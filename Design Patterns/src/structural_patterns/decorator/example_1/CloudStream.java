@@ -1,4 +1,4 @@
-package structural_patterns.decorator;
+package structural_patterns.decorator.example_1;
 
 public class CloudStream implements Stream {
 
