@@ -12,8 +12,11 @@ Defines one to many dependency between objects so when one object changes state,
 Allows an object notify other objects when its state changes.
 
 ### Decorator:
-#### Attaches additional responsibilities to an object dynamically. Decorators provide the alternative to subclassing for extending functionality.
+Attaches additional responsibilities to an object dynamically. Decorators provide the alternative to subclassing for extending functionality.
 
+### Factory Method:
+Defines an interface for creating an object, but lets subclasses decide which class to instantiate. 
+Factory Method lets a class defer instantiation to subclasses.
 
 ### Memento: 
 Allows restoring an object to a previous state.

@@ -1,6 +1,6 @@
 package headfirst_examples.factory.pizzafactorymethod.chicagostyle;
 
-import headfirst_examples.factory.pizzafactorymethod.Pizza;
+import headfirst_examples.factory.Pizza;
 
 public class ChicagoStyleCheesePizza extends Pizza {
 
@@ -12,7 +12,7 @@ public class ChicagoStyleCheesePizza extends Pizza {
         toppings.add("Shredded Mozzarella Cheese");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into square slices");
     }
 }

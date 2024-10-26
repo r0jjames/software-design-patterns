@@ -1,5 +1,6 @@
 package headfirst_examples.factory.pizzafactorymethod;
 
+import headfirst_examples.factory.Pizza;
 import headfirst_examples.factory.pizzafactorymethod.chicagostyle.ChicagoStyleCheesePizza;
 import headfirst_examples.factory.pizzafactorymethod.chicagostyle.ChicagoStyleClamPizza;
 import headfirst_examples.factory.pizzafactorymethod.chicagostyle.ChicagoStylePepperoniPizza;

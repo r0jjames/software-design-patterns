@@ -1,6 +1,6 @@
 package headfirst_examples.factory.pizzafactorymethod.nystyle;
 
-import headfirst_examples.factory.pizzafactorymethod.Pizza;
+import headfirst_examples.factory.Pizza;
 
 public class NYStyleCheesePizza extends Pizza {
 

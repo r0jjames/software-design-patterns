@@ -1,7 +1,23 @@
-package headfirst_examples.factory.pizzafactorymethod;
+package headfirst_examples.factory;
+
+import headfirst_examples.factory.pizzafactorymethod.ChicagoPizzaStore;
+import headfirst_examples.factory.pizzafactorymethod.NYPizzaStore;
+import headfirst_examples.factory.pizzafactorymethod.PizzaStore;
+import headfirst_examples.factory.pizzasimplefactory.SimplePizzaFactory;
+import headfirst_examples.factory.pizzasimplefactory.SimplePizzaStore;
 
 public class PizzaTestDrive {
     public static void main(String[] args) {
+        simpleFactory();
+    }
+
+    public static void simpleFactory() {
+        SimplePizzaStore simplePizzaStore = new SimplePizzaStore(new SimplePizzaFactory());
+        simplePizzaStore.orderPizza("Cheeze");
+
+    }
+
+    public static void factoryMethod() {
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
 

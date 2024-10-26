@@ -1,12 +1,16 @@
-package headfirst_examples.factory.pizzafactorymethod;
+package headfirst_examples.factory.pizzasimplefactory;
 
 import headfirst_examples.factory.Pizza;
 
-public abstract class PizzaStore {
-    abstract Pizza createPizza(String type);
+public class SimplePizzaStore {
+    SimplePizzaFactory factory;
+
+    public SimplePizzaStore(SimplePizzaFactory factory) {
+        this.factory = factory;
+    }
 
     public Pizza orderPizza(String type) {
-        Pizza pizza = createPizza(type);
+        Pizza pizza = factory.createPizza(type);
         System.out.println("--- Making a " + pizza.getName() + " ---");
         pizza.prepare();
         pizza.bake();

@@ -1,4 +1,4 @@
-package headfirst_examples.factory.pizzafactorymethod;
+package headfirst_examples.factory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ public abstract class Pizza {
 
     protected List<String> toppings = new ArrayList<>();
 
-    void prepare() {
+    public void prepare() {
         System.out.println("Prepare: " + name);
         System.out.println("Tossing dough....");
         System.out.println("Adding sauce....");
@@ -20,15 +20,15 @@ public abstract class Pizza {
         }
     }
 
-    void bake() {
+    public void bake() {
         System.out.println("Bake for 30 mins at 350");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cut the pizza into diagonal size");
     }
 
-    void box() {
+    public void box() {
         System.out.println("Place pizza in a official PizzaStore box");
     }
 

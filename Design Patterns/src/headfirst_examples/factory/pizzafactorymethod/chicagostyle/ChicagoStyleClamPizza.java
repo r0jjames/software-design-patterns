@@ -1,6 +1,6 @@
 package headfirst_examples.factory.pizzafactorymethod.chicagostyle;
 
-import headfirst_examples.factory.pizzafactorymethod.Pizza;
+import headfirst_examples.factory.Pizza;
 
 public class ChicagoStyleClamPizza extends Pizza {
     public ChicagoStyleClamPizza() {
@@ -12,7 +12,7 @@ public class ChicagoStyleClamPizza extends Pizza {
         toppings.add("Frozen Clams from Chesapeake Bay");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into square slices");
     }
 }

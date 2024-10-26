@@ -1,6 +1,6 @@
 package headfirst_examples.factory.pizzafactorymethod.chicagostyle;
 
-import headfirst_examples.factory.pizzafactorymethod.Pizza;
+import headfirst_examples.factory.Pizza;
 
 public class ChicagoStyleVeggiePizza extends Pizza {
     public ChicagoStyleVeggiePizza() {
@@ -14,7 +14,7 @@ public class ChicagoStyleVeggiePizza extends Pizza {
         toppings.add("Eggplant");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting the pizza into square slices");
     }
 }
