@@ -8,7 +8,7 @@ import headfirst_examples.factory.pizzafactorymethod.chicagostyle.ChicagoStyleVe
 
 public class ChicagoPizzaStore extends PizzaStore {
     @Override
-    Pizza createPizza(String item) {
+    protected Pizza createPizza(String item) {
         if (item.equals("cheese")) {
             return new ChicagoStyleCheesePizza();
         } else if (item.equals("veggie")) {
