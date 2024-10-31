@@ -1,23 +1,26 @@
 # Software Design Patterns
 
 
-### Strategy:
+### Strategy
 Defines a family of Algorithm, encapsulates each one, and make them interchangeable
 Allows passing different algorithms (behaviours) to an object.
 
-### Observer:
+### Observer
 Defines one to many dependency between objects so when one object changes state, all of its dependents notified and updated automatically. 
 Allows an object notify other objects when its state changes.
 
-### Decorator:
+### Decorator
 Attaches additional responsibilities to an object dynamically. Decorators provide the alternative to subclassing for extending functionality.
 
-### Factory Method:
+### Factory Method
 Defines an interface for creating an object, but lets subclasses decide which class to instantiate. 
 Factory Method lets a class defer instantiation to subclasses.
 
-### Abstract Factory:
+### Abstract Factory
 Provides an interface for creating a families of related or dependent objects without specifying their concrete classes.
+
+### Singleton
+Ensures a class has only one instance, and provides a global point of access to it.
 
 ### Memento: 
 Allows restoring an object to a previous state.
