@@ -22,6 +22,10 @@ Provides an interface for creating a families of related or dependent objects wi
 ### Singleton
 Ensures a class has only one instance, and provides a global point of access to it.
 
+### Command:
+Allows decouple a sender from a receiver. The sender will talk to the receiver through a command. Commands can be undone and persisted.
+Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
 ### Memento: 
 Allows restoring an object to a previous state.
 
@@ -33,9 +37,6 @@ Allows iterating over an object without having to expose the object’s
 internal structure (which may change in the future).
 be implemented in subclasses.
 
-### Command:
-Allows decouple a sender from a receiver. The sender will talk to
-the receive through a command. Commands can be undone and persisted.
 
 ### Mediator:
 Allows an object to encapsulate the communication between other
