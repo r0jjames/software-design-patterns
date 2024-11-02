@@ -1,6 +1,5 @@
-package headfirst_examples.factory.pizzafactorymethod;
+package headfirst_examples.factory.pizzaabstractfactory;
 
-import headfirst_examples.factory.Pizza;
 
 public abstract class PizzaStore {
     protected abstract Pizza createPizza(String item);
