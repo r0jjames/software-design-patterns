@@ -3,6 +3,7 @@ package headfirst_examples.command;
 public class RemoteControl {
     Command[] onCommands;
     Command[] offCommands;
+    Command undoCommand;
 
     RemoteControl() {
         onCommands = new Command[7];
@@ -13,6 +14,7 @@ public class RemoteControl {
             onCommands[i] = noCommand;
             offCommands[i] = noCommand;
         }
+        undoCommand = noCommand;
     }
 
     public void setCommand(int slot, Command onCommand, Command offCommand) {
@@ -22,10 +24,16 @@ public class RemoteControl {
 
     public void onButtonWasPushed(int slot) {
         onCommands[slot].execute();
+        undoCommand = onCommands[slot];
     }
 
     public void offButtonWasPushed(int slot) {
         offCommands[slot].execute();
+        undoCommand = offCommands[slot];
+    }
+
+    public void undoButtonWasPushed() {
+        undoCommand.undo();
     }
 
     @Override
@@ -33,7 +41,7 @@ public class RemoteControl {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("\n------Remote Control -----\n");
         for (int i = 0; i < onCommands.length; i++) {
-            stringBuffer.append("[slot " + 1 + "] " + onCommands[i].getClass().getName()
+            stringBuffer.append("[slot " + i + "] " + onCommands[i].getClass().getName()
                 + "    " + offCommands[i].getClass().getName() + "\n");
         }
         return stringBuffer.toString();
