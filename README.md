@@ -26,6 +26,9 @@ Ensures a class has only one instance, and provides a global point of access to 
 Allows decouple a sender from a receiver. The sender will talk to the receiver through a command. Commands can be undone and persisted.
 Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
+### Adapter
+Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+Two types: Object Adapter (Uses Object composition to Adapt the Adaptee) and Class Adapter (It subclass the Adaptee and Target classes).
 ### Memento: 
 Allows restoring an object to a previous state.
 
@@ -36,7 +39,6 @@ Allows an object to behave differently depending on the state it is in.
 Allows iterating over an object without having to expose the object’s
 internal structure (which may change in the future).
 be implemented in subclasses.
-
 
 ### Mediator:
 Allows an object to encapsulate the communication between other
