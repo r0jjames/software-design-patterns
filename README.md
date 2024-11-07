@@ -29,6 +29,11 @@ Encapsulates a request as an object, thereby letting you parameterize other obje
 ### Adapter
 Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 Two types: Object Adapter (Uses Object composition to Adapt the Adaptee) and Class Adapter (It subclass the Adaptee and Target classes).
+
+### Template Method
+Defines the steps/skeleton of an algorithm and allows the subclasses to provide the implementation for one or more steps.
+Lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
+
 ### Memento: 
 Allows restoring an object to a previous state.
 
