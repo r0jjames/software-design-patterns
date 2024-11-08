@@ -1,4 +1,4 @@
-package headfirst_examples.templatemethod;
+package headfirst_examples.templatemethod.barista;
 
 public class Tea extends CaffeineBeverage{
 

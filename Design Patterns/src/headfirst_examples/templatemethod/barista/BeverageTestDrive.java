@@ -1,4 +1,4 @@
-package headfirst_examples.templatemethod;
+package headfirst_examples.templatemethod.barista;
 
 public class BeverageTestDrive {
 	public static void main(String[] args) {

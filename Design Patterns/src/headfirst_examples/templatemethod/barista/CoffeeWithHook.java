@@ -1,4 +1,4 @@
-package headfirst_examples.templatemethod;
+package headfirst_examples.templatemethod.barista;
 
 import java.io.BufferedReader;
 import java.io.IOException;
