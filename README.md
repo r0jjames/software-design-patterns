@@ -22,7 +22,7 @@ Provides an interface for creating a families of related or dependent objects wi
 ### Singleton
 Ensures a class has only one instance, and provides a global point of access to it.
 
-### Command:
+### Command
 Allows decouple a sender from a receiver. The sender will talk to the receiver through a command. Commands can be undone and persisted.
 Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
@@ -34,16 +34,17 @@ Two types: Object Adapter (Uses Object composition to Adapt the Adaptee) and Cla
 Defines the steps/skeleton of an algorithm and allows the subclasses to provide the implementation for one or more steps.
 Lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 
+### Iterator
+Allows traversal of the elements of an aggregate without exposing the underlying implementation.
+Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+Allows iterating over an object without having to expose the object’s internal structure (which may change in the future) be implemented in subclasses.
+
 ### Memento: 
 Allows restoring an object to a previous state.
 
 ### State: 
 Allows an object to behave differently depending on the state it is in.
 
-### Iterator:
-Allows iterating over an object without having to expose the object’s
-internal structure (which may change in the future).
-be implemented in subclasses.
 
 ### Mediator:
 Allows an object to encapsulate the communication between other
