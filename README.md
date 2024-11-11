@@ -39,6 +39,9 @@ Allows traversal of the elements of an aggregate without exposing the underlying
 Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 Allows iterating over an object without having to expose the object’s internal structure (which may change in the future) be implemented in subclasses.
 
+### Composite
+Allows you to compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of object uniformly.
+
 ### Memento: 
 Allows restoring an object to a previous state.
 
