@@ -22,7 +22,7 @@
 target/
 
 # IDE specific
-.idea/*
+.idea/
 !.idea/misc.xml
 !.idea/modules.xml
 *.iml

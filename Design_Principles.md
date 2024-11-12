@@ -1,13 +1,21 @@
 Design Pattern Principles:
 
-#1: Identify the aspects of application that varies and separate them from what stay the same.
+- Dependency Inversion  - High-level and Low-level layers should depend on abstractions.
 
-#2: Program to interface / supertype, not implementation.
+- Single Responsibility - A class should have only one reason to change.
 
-#3: Favor composition over Inheritance.
+- Identify the aspects of application that varies and separate them from what stay the same.
 
-#4: Strive for loosely coupled designs between objects that interact.
+- Program to interface / supertype, not implementation.
 
+- Favor composition over Inheritance.
+
+- Strive for loosely coupled designs between objects that interact.
+
+- Classes should be open for extension, but closed for modification.
+
+<<<<<<< HEAD
 #5: Classes should be open for extension, but closed for modification.
 
 #6: Principle of The Least Knowledge: Talk only to your immediate friends.
+

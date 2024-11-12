@@ -29,9 +29,21 @@ Encapsulates a request as an object, thereby letting you parameterize other obje
 ### Adapter
 Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 Two types: Object Adapter (Uses Object composition to Adapt the Adaptee) and Class Adapter (It subclass the Adaptee and Target classes).
-
 ### Facade
 Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level of interface that makes the subsystem easier to use. 
+
+### Template Method
+Defines the steps/skeleton of an algorithm and allows the subclasses to provide the implementation for one or more steps.
+Lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
+
+### Iterator
+Allows traversal of the elements of an aggregate without exposing the underlying implementation.
+Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+Allows iterating over an object without having to expose the object’s internal structure (which may change in the future) be implemented in subclasses.
+
+### Composite
+Allows you to compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of object uniformly.
+
 
 ### Memento: 
 Allows restoring an object to a previous state.
@@ -39,10 +51,6 @@ Allows restoring an object to a previous state.
 ### State: 
 Allows an object to behave differently depending on the state it is in.
 
-### Iterator:
-Allows iterating over an object without having to expose the object’s
-internal structure (which may change in the future).
-be implemented in subclasses.
 
 ### Mediator:
 Allows an object to encapsulate the communication between other
