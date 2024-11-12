@@ -9,3 +9,5 @@ Design Pattern Principles:
 #4: Strive for loosely coupled designs between objects that interact.
 
 #5: Classes should be open for extension, but closed for modification.
+
+#6: Principle of The Least Knowledge: Talk only to your immediate friends.

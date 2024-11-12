@@ -22,13 +22,17 @@ Provides an interface for creating a families of related or dependent objects wi
 ### Singleton
 Ensures a class has only one instance, and provides a global point of access to it.
 
-### Command:
+### Command
 Allows decouple a sender from a receiver. The sender will talk to the receiver through a command. Commands can be undone and persisted.
 Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
 ### Adapter
 Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 Two types: Object Adapter (Uses Object composition to Adapt the Adaptee) and Class Adapter (It subclass the Adaptee and Target classes).
+
+### Facade
+Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level of interface that makes the subsystem easier to use. 
+
 ### Memento: 
 Allows restoring an object to a previous state.
 
@@ -51,3 +55,7 @@ request.
 ### Visitor:
 Allows adding new operations to an object structure without
 modifying it.
+
+
+### Bullet Points:
+- An Adapter wraps an object to change its interface, a Decorator wraps an object to add new behaviors and responsibilities, and a Facade “wraps” a set of objects to simplify.
