@@ -2,7 +2,7 @@ package structural_patterns.composite;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Composite
 public class Group implements Component{
     private final List<Component> components = new ArrayList<>();
 

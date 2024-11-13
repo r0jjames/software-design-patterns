@@ -1,5 +1,5 @@
 package structural_patterns.composite;
-
+// Leaf
 public class Shape implements Component {
     @Override
     public void render() {
