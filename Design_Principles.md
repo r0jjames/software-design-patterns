@@ -14,3 +14,8 @@ Design Pattern Principles:
 
 - Classes should be open for extension, but closed for modification.
 
+<<<<<<< HEAD
+#5: Classes should be open for extension, but closed for modification.
+
+#6: Principle of The Least Knowledge: Talk only to your immediate friends.
+
