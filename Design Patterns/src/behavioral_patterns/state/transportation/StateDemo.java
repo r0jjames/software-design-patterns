@@ -1,4 +1,4 @@
-package behavioral_patterns.state.solutions;
+package behavioral_patterns.state.transportation;
 
 /*
 In the Exercises project, look at the code in the state/DirectionService class.

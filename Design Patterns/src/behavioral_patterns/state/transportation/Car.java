@@ -1,4 +1,4 @@
-package behavioral_patterns.state.solutions;
+package behavioral_patterns.state.transportation;
 
 public class Car implements Transportation{
     @Override
