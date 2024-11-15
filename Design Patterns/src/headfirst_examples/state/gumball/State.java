@@ -1,11 +1,11 @@
 package headfirst_examples.state.gumball;
 
 public interface State {
-    void insertQuarter();
-
-    void ejectQuarter();
-
-    void turnCrank();
-
-    void dispense();
+ 
+	public void insertQuarter();
+	public void ejectQuarter();
+	public void turnCrank();
+	public void dispense();
+	
+	public void refill();
 }
