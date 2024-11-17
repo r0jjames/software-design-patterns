@@ -1,7 +1,9 @@
-package headfirst_examples.proxy;
+package headfirst_examples.proxy.remote;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
 public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
@@ -19,7 +21,8 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
     public static void main(String[] args) {
         try {
             MyRemote service = new MyRemoteImpl();
-            Naming.bind("RemoteHello", service);
+            Registry registry = LocateRegistry.createRegistry(1099);
+            registry.bind("RemoteHello", service);
         } catch (Exception e) {
             e.printStackTrace();
         }

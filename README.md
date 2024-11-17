@@ -44,13 +44,15 @@ Allows iterating over an object without having to expose the object’s internal
 ### Composite
 Allows you to compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of object uniformly.
 
-### State:
+### State
 Allows an object to alter its behaviour when its internal state changes. The object will appear to change its class.
 Allows an object to behave differently depending on the state it is in.
 
+### Proxy
+Provides a representative or placeholder for another object to control access to it.
+
 ### Memento: 
 Allows restoring an object to a previous state.
-
 
 
 ### Mediator:
