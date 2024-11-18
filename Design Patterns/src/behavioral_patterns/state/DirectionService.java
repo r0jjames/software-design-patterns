@@ -1,6 +1,6 @@
 package behavioral_patterns.state;
 
-import behavioral_patterns.state.solutions.TravelMode;
+import behavioral_patterns.state.transportation.TravelMode;
 
 public class DirectionService {
     private TravelMode travelMode;
